@@ -1,0 +1,13 @@
+{
+  "name": "value-accord",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "workspaces": ["apps/*", "packages/*"],
+  "scripts": {
+    "test": "node --test tests/*.test.js",
+    "demo": "node apps/sandbox/src/cli.js",
+    "dev:website": "pnpm --dir apps/website dev",
+    "build:website": "pnpm --dir apps/website build"
+  }
+}
