@@ -5,7 +5,7 @@ export function Header() {
 }
 
 export function Footer() {
-  return <footer className="footer"><div className="shell footer-grid"><div><Link href="/" className="brand"><span>VA</span> Value Accord</Link><p>One protocol. Any value.</p></div><div><strong>Explore</strong><Link href="/demo">Live Demo</Link><Link href="/protocol">Protocol</Link><Link href="/roadmap">Roadmap</Link></div><div><strong>Participate</strong><Link href="/join">Join the Project</Link><a href="https://github.com/" aria-label="GitHub placeholder">GitHub (not yet published)</a></div></div><div className="shell legal">Experimental open-source project. No real funds, custody, cards, or regulated financial services.</div></footer>;
+  return <footer className="footer"><div className="shell footer-grid"><div><Link href="/" className="brand"><span>VA</span> Value Accord</Link><p>One protocol. Any value.</p></div><div><strong>Explore</strong><Link href="/demo">Live Demo</Link><Link href="/protocol">Protocol</Link><Link href="/roadmap">Roadmap</Link></div><div><strong>Participate</strong><Link href="/join">Join the Project</Link><a href="https://github.com/ValueAccord/value-accord" aria-label="Value Accord on GitHub">GitHub</a></div></div><div className="shell legal">Experimental open-source project. No real funds, custody, cards, or regulated financial services.</div></footer>;
 }
 
 export function PageShell({ eyebrow, title, intro, children }: { eyebrow: string; title: string; intro: string; children: React.ReactNode }) {
