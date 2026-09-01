@@ -16,6 +16,10 @@ export const metadata: Metadata = {
   metadataBase: new URL('https://valueaccord.com'),
   title: 'Value Accord — One protocol. Any value.',
   description: 'An open protocol for payment intent, competitive routing, and verifiable settlement receipts.',
+  icons: {
+    icon: [{ url: '/favicon.svg?v=2', type: 'image/svg+xml' }],
+    shortcut: '/favicon.svg?v=2',
+  },
   openGraph: {
     title: 'Value Accord — One protocol. Any value.',
     description: 'Open payment intent, competitive routing, and verifiable settlement receipts.',
