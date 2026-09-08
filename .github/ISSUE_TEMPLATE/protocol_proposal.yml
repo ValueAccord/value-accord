@@ -1,0 +1,22 @@
+name: Protocol or implementation proposal
+description: Propose a concrete change to the research sandbox or draft protocol.
+title: "Proposal: "
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem should this solve?
+      description: Reference the RFC section or affected component where possible.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed behavior and alternatives
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: How could we test the proposal?
+      description: Suggest synthetic inputs, expected results, and relevant trust assumptions.

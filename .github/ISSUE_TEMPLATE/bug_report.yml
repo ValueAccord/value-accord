@@ -1,0 +1,31 @@
+name: Reproducible bug
+description: Report a problem with the website or research sandbox using synthetic data.
+title: "Bug: "
+body:
+  - type: markdown
+    attributes:
+      value: "For sensitive security reports, follow SECURITY.md. Never include credentials or real financial data."
+  - type: input
+    id: location
+    attributes:
+      label: Affected page or component
+      placeholder: "https://valueaccord.com/demo or packages/router"
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to reproduce
+      description: Include the synthetic amount/scenario or minimal code example.
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Expected and actual behavior
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Browser or Node version, operating system, and commit if known
